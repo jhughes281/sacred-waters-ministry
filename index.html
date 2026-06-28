@@ -47,6 +47,7 @@
   .hero h1{font-size:clamp(44px,7vw,82px);font-weight:600;line-height:1.02;letter-spacing:.01em}
   .hero .tag{font-size:clamp(18px,2.4vw,24px);color:var(--gold-soft);font-style:italic;font-family:'Cormorant Garamond',serif;margin-top:10px}
   .hero .republic{margin-top:18px;letter-spacing:.32em;font-size:12px;text-transform:uppercase;color:rgba(231,220,245,.7)}
+  .badge{display:inline-block;margin-top:20px;padding:9px 22px;border:1.5px solid var(--gold);border-radius:30px;color:var(--gold-soft);letter-spacing:.14em;text-transform:uppercase;font-size:12px;font-weight:700}
   .hero .cta{margin-top:38px;display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
   .wave{position:absolute;bottom:-1px;left:0;width:100%;height:80px;display:block}
 
@@ -108,6 +109,12 @@
   .give{background:linear-gradient(150deg,var(--teal-deep),var(--teal));color:#fff;text-align:center}
   .give h2{font-size:clamp(34px,5vw,50px);font-weight:600;margin-bottom:12px}
   .give p{max-width:600px;margin:0 auto 30px;font-size:18px;opacity:.92}
+  .sister-band{background:var(--purple-deep);color:var(--cream);text-align:center}
+  .sister-card{max-width:720px;margin:0 auto;background:rgba(255,255,255,.05);border:1px solid rgba(43,183,173,.45);border-radius:18px;padding:44px 38px}
+  .sister-card .eyebrow{color:var(--teal)}
+  .sister-card h2{font-size:clamp(28px,4vw,40px);color:#fff;margin:10px 0 8px;font-weight:600}
+  .sister-card p{color:rgba(231,220,245,.82);font-size:17px;max-width:520px;margin:0 auto 26px}
+  .sister-card .fp{color:var(--gold-soft);font-size:14px;letter-spacing:.06em;text-transform:uppercase;font-weight:700;margin-bottom:18px}
 
   /* CONTACT */
   .contact{background:var(--cream)}
@@ -149,6 +156,7 @@
       <a href="#leadership">Leadership</a>
       <a href="#give">Give</a>
       <a href="#contact">Contact</a>
+      <a href="https://jhughes281.github.io/sacred-springs-ministry/" target="_blank" rel="noopener" style="color:var(--teal);font-weight:700">Sister Ministry &#8599;</a>
       <a href="#services" class="btn btn-gold" style="padding:10px 22px">Join Us</a>
     </div>
     <button class="menu-btn" aria-label="Menu" onclick="document.querySelector('.navlinks').style.display='flex'">&#9776;</button>
@@ -161,6 +169,7 @@
     <h1>Sacred Waters<br>Ministry</h1>
     <p class="tag">Where faith flows and the spirit is renewed</p>
     <p class="republic">Lnu k Tsalagi Yavapai Republic</p>
+    <div><span class="badge">For-Profit Ministry &middot; Unincorporated</span></div>
     <div class="cta">
       <a href="#services" class="btn btn-gold">Join Us Online</a>
       <a href="#give" class="btn btn-ghost">Give</a>
@@ -273,9 +282,21 @@
   <div class="wrap">
     <p class="eyebrow" style="color:#eafffb">Give &amp; support</p>
     <h2>Partner with our ministry</h2>
-    <p>Your generous donations sustain our worship, outreach, and mission. Every gift is received with gratitude and stewarded with care.</p>
-    <a href="#" class="btn btn-gold" style="font-size:16px;padding:16px 40px">Donate Now</a>
-    <p style="font-size:14px;opacity:.8;margin-top:18px">Secure online giving &mdash; tax-deductible receipts provided.</p>
+    <p>Your generous gifts sustain our worship, outreach, and mission. Every gift is received with gratitude and stewarded with care.</p>
+    <a href="#contact" class="btn btn-gold" style="font-size:16px;padding:16px 40px">Give a Gift</a>
+    <p style="font-size:14px;opacity:.8;margin-top:18px">Sacred Waters Ministry is a for-profit, unincorporated ministry. Gifts are not tax-deductible.</p>
+  </div>
+</section>
+
+<section class="sister-band">
+  <div class="wrap">
+    <div class="sister-card">
+      <p class="eyebrow">Sister ministry</p>
+      <h2>Sacred Springs Ministry</h2>
+      <p class="fp">A Non-Profit Ministry</p>
+      <p>Sacred Waters and Sacred Springs are sister ministries &mdash; sharing one heritage and one heart. Visit our sister site to learn more.</p>
+      <a href="https://jhughes281.github.io/sacred-springs-ministry/" class="btn btn-gold" target="_blank" rel="noopener">Visit Sacred Springs &#8599;</a>
+    </div>
   </div>
 </section>
 
@@ -298,11 +319,13 @@
   <img src="assets/logo.png" alt="Sacred Waters Ministry seal">
   <div class="fname">Sacred Waters Ministry</div>
   <div class="rep">Lnu k Tsalagi Yavapai Republic</div>
+  <div style="font-size:13px;color:var(--gold-soft);letter-spacing:.06em;text-transform:uppercase;font-weight:700;margin-bottom:10px">For-Profit &middot; Unincorporated</div>
   <p>Saturdays 11:00 AM CST &middot; Wednesdays 7:00 PM CST &middot; Online via Google Meet &amp; Zoom</p>
   <div class="social">
     <a href="#" aria-label="Facebook" title="Facebook"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06c0 5 3.66 9.15 8.44 9.94v-7.03H7.9v-2.9h2.54V9.85c0-2.51 1.5-3.9 3.78-3.9 1.1 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.44 2.9h-2.34V22c4.78-.79 8.44-4.94 8.44-9.94z"/></svg></a>
     <a href="#" aria-label="Instagram" title="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2.5" y="2.5" width="19" height="19" rx="5.5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.6" cy="6.4" r="1.1" fill="currentColor" stroke="none"/></svg></a>
   </div>
+  <div style="margin:8px 0 4px">Sister ministry: <a href="https://jhughes281.github.io/sacred-springs-ministry/" target="_blank" rel="noopener" style="color:var(--gold-soft);border-bottom:1px solid rgba(216,178,74,.45);padding-bottom:2px">Sacred Springs Ministry (Non-Profit) &#8599;</a></div>
   <small>&copy; 2026 Sacred Waters Ministry. All rights reserved.</small>
 </footer>
 
